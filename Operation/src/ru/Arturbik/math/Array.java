@@ -8,7 +8,19 @@ public class Array {
 	static Operation op = new Operation();
 	static Scanner scn = new Scanner(System.in);
 	static int a, b;
-	public void Array() {
+	public void Array(int choose) {
+		switch (choose) {
+		case 1:
+			System.out.println("Вы выбрали пересечение");
+			break;
+		case 2:
+			System.out.println("Вы выбрали Объеденение");
+			break;
+		case 3:
+			System.out.println("Вы выбрали Пересечение");
+			break;
+		default:
+		}
 		System.out.println("Идет создание первого массива. Сколько в первом множестве элементов?");
 		 List array_1 = new ArrayList<Integer>();
 		 int max = scn.nextInt();
@@ -25,7 +37,20 @@ public class Array {
 			 int a = scn.nextInt();
 			 array_2.add(a);
 		 }
-		 op.Intersection(array_1, array_2,Math.max(a, b));
+		 switch (choose) {
+		case 1:
+			op.Intersection(array_1, array_2);
+			break;
+		case 2:
+			op.Association(array_1, array_2);
+			break;
+		case 3:
+			op.Subtraction(array_1, array_2);
+			break;
+		default:
+			break;
+		}
 	}
+	
 }
 
