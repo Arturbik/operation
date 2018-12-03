@@ -22,13 +22,16 @@ public class Operation extends Array {
 		for(int i = 0; i<array_1.size();i++) {
 			for(int j = 0; i<array_2.size();i++) {
 				if(array_1.get(i).equals(array_2.get(j))) {
-					array_1.remove(i);
+					array_2.remove(j);
 				}
 			}
 		}
 		for(int i = 0; i<array_2.size();i++) {
 			array_1.add(array_2.get(i));
-			System.out.println(array_1.get(i)+" ");
+			
+		}
+		for(int i = 0; i<array_1.size();i++) {
+			System.out.print(array_1.get(i)+" ");
 		}
 	}
 
