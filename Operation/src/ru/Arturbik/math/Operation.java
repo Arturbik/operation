@@ -48,4 +48,11 @@ public class Operation extends Array {
 			System.out.print(array_1.get(i)+" ");
 		}
 	}
+	public void Dekart(List array_1, List array_2) { //Выполняется декартово умножение
+		for(int i = 0; i < array_1.size(); i++) {
+			for(int j = 0; j < array_2.size(); j++) {
+				
+			}
+		}
+	}
 }

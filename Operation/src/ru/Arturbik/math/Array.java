@@ -50,6 +50,9 @@ public class Array {
 		case 3:
 			op.Subtraction(array_1, array_2);
 			break;
+		case 4:
+			op.Dekart(array_1, array_2);
+			break;
 		default:
 			break;
 		}
