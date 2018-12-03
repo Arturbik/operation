@@ -19,6 +19,9 @@ public class Array {
 		case 3:
 			System.out.println("Вы выбрали вычетание");
 			break;
+		case 4:
+			System.out.println("Вы выбрали декартово умножение");
+			break;
 		default:
 		}
 		System.out.println("Идет создание первого массива. Сколько в первом множестве элементов?");
