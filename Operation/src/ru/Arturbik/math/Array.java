@@ -14,10 +14,10 @@ public class Array {
 			System.out.println("Вы выбрали пересечение.");
 			break;
 		case 2:
-			System.out.println("Вы выбрали Объеденение");
+			System.out.println("Вы выбрали Объеденение.");
 			break;
 		case 3:
-			System.out.println("Вы выбрали вычетание");
+			System.out.println("Вы выбрали вычетание.");
 			break;
 		case 4:
 			System.out.println("Вы выбрали декартово умножение.");
