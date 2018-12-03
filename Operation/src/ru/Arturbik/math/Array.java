@@ -11,7 +11,7 @@ public class Array {
 	public void Array(int choose) {
 		switch (choose) {
 		case 1:
-			System.out.println("Вы выбрали пересечение");
+			System.out.println("Вы выбрали пересечение.");
 			break;
 		case 2:
 			System.out.println("Вы выбрали Объеденение");
