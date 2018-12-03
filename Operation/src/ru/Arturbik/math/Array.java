@@ -20,7 +20,7 @@ public class Array {
 			System.out.println("Вы выбрали вычетание");
 			break;
 		case 4:
-			System.out.println("Вы выбрали декартово умножение");
+			System.out.println("Вы выбрали декартово умножение.");
 			break;
 		default:
 		}
