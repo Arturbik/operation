@@ -17,7 +17,7 @@ public class Array {
 			System.out.println("Вы выбрали Объеденение");
 			break;
 		case 3:
-			System.out.println("Вы выбрали Пересечение");
+			System.out.println("Вы выбрали вычетание");
 			break;
 		default:
 		}
